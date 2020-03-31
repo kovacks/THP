@@ -4,7 +4,7 @@ html, body {
 }
 
 main {
-	min-height: 44em;
+	min-height: 44em; 
 }
 
 #button {
@@ -171,5 +171,5 @@ main {
 }
 
 #finder input:hover {
-	box-shadow: 2px 2px 2px 2px #ecf0f1;
+	box-shadow: 1px 1px 5px #bdc3c7;
 }
