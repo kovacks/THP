@@ -30,5 +30,5 @@
 
 
 
-              * * Lien vers le site en production ==> www.kovacks911.com * *
+              * * Lien vers le site en production ==>  * *
 
