@@ -1,0 +1,175 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+	min-height: 44em;
+}
+
+#button {
+	display: flex;
+	justify-content:	center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.button1 button, .button2 button{
+	margin: 5px;
+	border: none;
+	background-color: #f2f2f2;
+	border-radius: 2px;
+	padding: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: 14px;
+	color: #5F6368;
+	font-family: arial, sans-serif;
+}
+
+.button1 button:hover, .button2 button:hover{
+	margin: 5px;
+	box-shadow: .4px .4px .4px .4px grey;
+	background-color: #f2f2f2;
+	border-radius: 2px;
+	padding: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: 14px;
+	color: black;
+	font-family: arial, sans-serif;
+	cursor: pointer;
+}
+
+
+#logo {
+	display: flex;
+	justify-content: center;
+	margin-top: 135px;
+}
+
+#navbar a {
+	text-decoration: none;
+	font-family: arial, sans-serif;
+	color: #636e72;
+}
+
+#navbar a:hover {
+	text-decoration: underline;
+	font-family: arial, sans-serif;
+	color: #636e72;
+}
+
+#navbar {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 30px;
+	margin-top: 15px;
+	font-size: 13px;
+}
+
+.nav1, .nav2, .nav3, .nav4 {
+	margin-right: 15px;
+}
+
+.nav4 button{
+	color: white;
+	background-color: #4387fd;
+	border: 1px solid #4387fd;
+	border-radius: 2px;
+	padding: 5px;
+	padding-right: 8px;
+	padding-left: 8px;
+}
+
+#finder {
+	display: flex;
+	justify-content: center;
+}
+
+#covid_alert {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#covid_alert p {
+	font-family: arial,sans-serif;
+	font-size: small;
+}
+
+#covid_alert a {
+	margin-left: 10px;
+	text-decoration: none;
+}
+
+#covid_alert a:hover {
+	margin-left: 10px;
+	text-decoration: underline;
+}
+
+#footered {
+	color: rgba(0,0,0,.54);
+	background-color: #f2f2f2;
+	font-size: 14px;
+	display:	flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #e4e4e4;
+	font-family: arial,sans-serif;
+	border-top: 1px solid #bdc3c7;
+	height: 40px;
+}
+
+#footered a {
+	text-decoration: none;
+	color: rgba(0,0,0,.54);
+	padding-bottom: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#footered a:hover {
+	text-decoration: underline;
+	color: rgba(0,0,0,.54);
+	padding-top: 10px;
+	padding-bottom: 2px;
+}
+
+#left {
+	padding-top: 10px;
+}
+
+#right {
+	padding-top: 10px;
+}
+
+#country {
+	color: rgba(0,0,0,.54);
+	background-color: #f2f2f2;
+	font-family: arial,sans-serif;
+	font-size: 14px;
+	border-top: 1px solid #bdc3c7;
+	padding-bottom: 4px;
+}
+
+#country p {
+	padding-left: 20px;
+}
+
+#finder input {
+	border: 1px solid #bdc3c7;
+	border-radius: 20px 20px 20px 20px;
+	width: 550px;
+	height: 38px;
+	margin-top: 10px;
+	border: 1px solid #ecf0f1;
+	background: url(images/greyloop2.png);
+	background-size: 15px;
+	background-repeat: no-repeat;
+	background-position: 2% 50%;
+}
+
+#finder input:hover {
+	box-shadow: 2px 2px 2px 2px #ecf0f1;
+}
